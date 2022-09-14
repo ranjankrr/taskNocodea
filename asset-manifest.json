@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/taskNocodea/static/css/main.c999fe61.css",
+    "main.js": "/taskNocodea/static/js/main.3ea8a53a.js",
+    "index.html": "/taskNocodea/index.html",
+    "main.c999fe61.css.map": "/taskNocodea/static/css/main.c999fe61.css.map",
+    "main.3ea8a53a.js.map": "/taskNocodea/static/js/main.3ea8a53a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c999fe61.css",
+    "static/js/main.3ea8a53a.js"
+  ]
+}
