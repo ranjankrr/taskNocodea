@@ -2,59 +2,202 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-}
-.register-header{
+  }
+  .register-header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
-
-}
-.header{
-    background-color: azure;
-    box-shadow: 2px 4px 6px gray;
+    height:150vh;
+  
+  }
+  .header{
+    text-align: center;
+    background-color:brown;
     width:100%;
-    padding:15px;
-    height:50px;
-}
-
-
-.active_class{
-    color:green;
+    padding: 10px;
+  
+  } 
+  
+  
+  .active_class{
+    color:white;
     border-bottom: 2px solid blue;
-}
-a{
+  }
+  a{
     text-decoration: none;
     font-size: 18px;
     color:black;
-    margin-left: 40px;
-}
-.register-form{
+    margin: 30px;
+  }
+  a:hover{
+    color:aliceblue;
+  }
+  .register-form{
     background-color:white;
-    box-shadow: 4px 6px 10px gray;
-    width:300px;
-    height:400px;
-}
-h3{ 
+    border: 5px solid brown;
+    width:600px;
+    height:auto;
+  }
+  h4{ 
     padding-top: 10px;
     text-align: center;
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 30px;
+  }
+  
+  .box-content{
+    border:1px solid black;
+    width:300px;
+    height:150px;
+  }
+  .main-box{
+    display:inline-block;
+    margin:20px;
+  }
+  .text{
     color:green;
-}
-input{
-    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .deltBtn{
+    width:20px;
+    padding:5px;
+  
+  }
+  .notfound{
+    margin-top: 50px;
+    color:red;
+    text-align: center;
+  }
+  .Back{
+    color:blue;
+    text-align: center;
+    text-decoration: underline;
+  }
+  /*today start css code here  */
+  .fullname{
     border:0px;
-    border-bottom: 1px solid green;
-    width:250px;
-    padding:10px;
-    margin-left:25px;
+    outline: none;
+    border:1px solid black;
+    border-radius: 10px;
+    width:300px;
+    padding:3px;
+    margin-left: 35px;
     margin-top: 10px;
+  }
+  .date-birth{
+    border:0px;
+    outline: none;
+    border:1px solid black;
+    border-radius: 10px;
+    width:300px;
+    padding:3px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .email-filled{
+       margin-left: 55px;
+
+  }
+  .phone-filled{
+    margin-left: 0px;
+  }
+  .radio-button{
+    margin-top: 20px;
+       margin-left:40px;
+       cursor:pointer;
+  }
+  .text-area{
+    width:300px;
+    height:auto;
+    margin-left: 55px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline:0px;
+  }
+  .city-filled{
+      margin-left: 85px;
+      margin-top: 10px;
+  }
+.code-filled{
+  margin-left:50px ;
 }
-button{
-    margin-top:30px;
-    margin-left:100px;
+.state-filled{
+  margin-left: 80px;
+}
+.country-filled{
+  margin-left: 60px;
+}
+.title-name{
+  margin-left: 80px;
+  font-size:16px;
+  font-weight: bold;
+  color:green;
+}
+.checkBox{
+  margin-left: 200px;
+  cursor: pointer;
+}
+.submit-btn{
+  width:100px;
+  padding: 5px;
+  margin-left: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border:0px;
+  border-radius: 10px;
+  border: 1px solid black;
+
+}
+  .submit-btn:hover{
+    background-color: green;
+    color:white;
+  }
+  .table-content{
+    margin:10px;
+  }
+  .delete-btn{
+    background-color: brown;
+    color:aliceblue;
+    border:0px;
+    width:20px;
+    padding:3px;
+    margin-left:2px;
+  
+  }
+  .search-box{
+    margin-left:400px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border:0px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline:none;
+    width:500px;
+    padding:5px;
+  }
+  .para{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .input-add{
+    margin-left: 50px;
+    height:100px;
+    width:500px;
+    outline:none;
+    border:0px;
+    border:1px solid green;
+  }
+  .add-btn{
+    background-color: blue;
+    color:white;
+    margin-left:50px ;
     width:100px;
-    padding: 10px;
-
-}  
-
-
+    padding:5px;
+    border:0px;
+    
+  }
+  

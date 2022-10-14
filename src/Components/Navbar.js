@@ -4,12 +4,12 @@ import {NavLink} from 'react-router-dom';
 const Navbar =()=>{
     return(
         <>
-        <div className="navbar">
-          <NavLink  exact activeClassName='active_class' to="/">NewRegister</NavLink>
-          <NavLink  exact activeClassName='active_class' to="/about">Login</NavLink>
-          <NavLink  exact activeClassName='active_class' to="/skills">Admin</NavLink>
+          <NavLink  exact activeClassName='active_class' to="/">Home</NavLink>
+          <NavLink   activeClassName='active_class' to="/user">Adduser</NavLink>
+          <NavLink   activeClassName='active_class' to="/blue">Blue</NavLink>
+          <NavLink   activeClassName='active_class' to="/green">Green</NavLink>
+          <NavLink   activeClassName='active_class' to="/yellow">Yellow</NavLink>
           
-        </div>
         </>
     )
 }

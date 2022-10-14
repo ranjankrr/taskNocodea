@@ -1,0 +1,46 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "title": "Android Developer",
+      "body": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested"
+    },
+    {
+      "id": 2,
+      "name": "David warner",
+      "title": "Sports",
+      "body": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested"
+    },
+    {
+      "id": 3,
+      "name": "Ervin Howell",
+      "title": "Software Developer",
+      "body": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested"
+    },
+    {
+      "name": "Sudhir",
+      "title": "Ui/Developer",
+      "body": "he is good in ui developer",
+      "id": 4
+    },
+    {
+      "name": "Nitya",
+      "title": "Android Developer",
+      "body": "she is not ready for android developer",
+      "id": 5
+    },
+    {
+      "name": "Ranjan",
+      "title": "UI/Developer",
+      "body": "ranjan ready for UI/ developer",
+      "id": 6
+    },
+    {
+      "name": "Abhay",
+      "title": "backend developer",
+      "body": "he is good",
+      "id": 7
+    }
+  ]
+}
